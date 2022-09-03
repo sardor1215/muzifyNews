@@ -13,7 +13,7 @@ export default function ReleaseCard(props) {
       <span>
         <a href={props.link} target="_blank" rel="noreferrer">
           <Tooltip content="Play on spotify" className="">
-            <div className="border-b-solid border-b-4 border-blue-600">
+            <div className="border-b-solid border-b-2 border-black-">
               <strong>{props.name}</strong>
               <span> - </span>
               <span className="text-end font-mono font-semibold text-base">

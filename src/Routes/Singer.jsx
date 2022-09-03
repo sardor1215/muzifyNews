@@ -57,16 +57,16 @@ export default function Singer() {
                   <h1 class="text-3xl font-bold pt-8 lg:pt-0">
                     {data[0].nameSurname}
                   </h1>
-                  <p className="font-semibold">Known As {data[0].nick}</p>
+                  <p className=" font-semibold">Known As {data[0].nick}</p>
                   <div class="mx-auto mb-4 lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
 
                   <div class="mb-3">
-                    <div class="bg-green-700  text-white font-bold py-2 px-4 rounded-full">
+                    <div class="bg-black  text-white font-bold py-2 px-4 rounded-full">
                       Birth date: {data[0].birthDate}
                     </div>
 
                     <div class="mt-3">
-                      <div class="bg-green-700 disabled text-white font-bold py-2 px-4 rounded-full">
+                      <div class="bg-black disabled text-white font-bold py-2 px-4 rounded-full">
                         Birth Place: {data[0].birthPlace}
                       </div>
                     </div>
