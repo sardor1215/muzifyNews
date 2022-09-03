@@ -14,15 +14,15 @@ export default function NewsCard(props) {
           src={props.img}
           alt=""
         />
-        <div class="flex flex-col justify-between p-4 leading-normal">
+        <div class=" flex flex-col justify-between p-4 leading-normal">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             {props.title}
           </h5>
-          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          <p class=" font-serif text-lg mb-3  text-gray-700 dark:text-gray-400">
             {props.main.slice(0, 50)}
           </p>
-          <div className="grid grid-cols-2">
-            <span className="text-start">{props.views}</span>
+          <div className="grid grid-cols-2 font-mono font-semibold text-base">
+            <span className="text-start">{props.views} views</span>
             <span className="text-end">{props.date}</span>
           </div>
         </div>

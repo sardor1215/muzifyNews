@@ -61,14 +61,14 @@ export default function Singer() {
                   <div class="mx-auto mb-4 lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
 
                   <div class="mb-3">
-                    <button class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full">
+                    <div class="bg-green-700  text-white font-bold py-2 px-4 rounded-full">
                       Birth date: {data[0].birthDate}
-                    </button>
+                    </div>
 
                     <div class="mt-3">
-                      <button class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full">
+                      <div class="bg-green-700 disabled text-white font-bold py-2 px-4 rounded-full">
                         Birth Place: {data[0].birthPlace}
-                      </button>
+                      </div>
                     </div>
                   </div>
                   <div className="mt-5 text-xl font-semibold">

@@ -26,16 +26,16 @@ export default function WeatherInfo() {
     <div className="hidden md:block  shadow-sq py-1 border-solid border divide-slate-600 justify-center bg-white">
       <div class="grid grid-flow-row-dense grid-cols-3 grid-rows-2 mx-7">
         <div class="col-span-2 ">
-          <span class="text-gray-400">Today</span>
+          <span class="text-gray-400 font-mono font-semibold">Today</span>
         </div>
-        <div class="col-span-2 ">
+        <div class="col-span-2 font-mono font-semibold ">
           <span class="text-lg ">{weekDays[day]}</span>
         </div>
-        <div>
+        <div className="font-mono font-semibold">
           {new Date().toLocaleDateString()}
           {/* <FontAwesomeIcon icon={faBars} /> */}
         </div>
-        <div>{clockState}</div>
+        <div className="font-mono font-semibold text-base">{clockState}</div>
       </div>
     </div>
   );

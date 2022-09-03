@@ -16,7 +16,7 @@ module.exports = withMT({
       silver: "#ecebff",
       "bubble-gum": "#ff77e9",
       bermuda: "#78dcca",
-      bgu: "#f7f6dc",
+      bgu: "#fafafa",
     },
     extend: {
       boxShadow: {

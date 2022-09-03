@@ -16,7 +16,9 @@ export default function ReleaseCard(props) {
             <div className="border-b-solid border-b-4 border-blue-600">
               <strong>{props.name}</strong>
               <span> - </span>
-              <span className="text-end">{props.song}</span>
+              <span className="text-end font-mono font-semibold text-base">
+                {props.song}
+              </span>
             </div>
           </Tooltip>
         </a>

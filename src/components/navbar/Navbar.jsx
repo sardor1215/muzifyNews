@@ -15,16 +15,15 @@ export default function Navbar() {
       <div className="md:flex items-center justify-between bg-white py-3 md:px-8 px-7">
         <Link
           to={"/"}
-          className=" font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
+          className=" font-bold text-2xl  cursor-pointer flex items-center font-[Poppins] 
       text-gray-800"
         >
-          <span className=" text-3xl text-indigo-600 mr-1 pt-2"></span>
-          <a>MuzifyNews</a>
+          <span className=" text-3xl font-mono mr-1 pt-2">MuzifyNews</span>
         </Link>
 
         <div
           onClick={() => setOpen(!open)}
-          className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden"
+          className="text-3xl absolute right-8 top-3 cursor-pointer md:hidden"
         >
           <FontAwesomeIcon icon={open ? faBars : faBars} />
         </div>
@@ -41,7 +40,7 @@ export default function Navbar() {
             >
               <Link
                 to={link.link}
-                className="text-gray-800 hover:text-gray-400 duration-500 "
+                className="font-serif text-2xl text-gray-800 hover:text-gray-400 duration-500"
               >
                 {link.name}
               </Link>

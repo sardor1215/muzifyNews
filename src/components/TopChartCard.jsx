@@ -13,11 +13,19 @@ export default function TopChartCard(props) {
           className="underline text-blue-700 underline-offset-4 "
           to={`/singer/${props.slang}`}
         >
-          {props.singer}
+          <strong>{props.singer}</strong>
         </Link>
-        <span> - {props.song}</span>
+        <span>
+          {" "}
+          <strong> - </strong>
+          <span className="font-mono font-semibold text-base">
+            {props.song}
+          </span>
+        </span>
       </div>
-      <div className="m-auto">{props.genre}</div>
+      <div className="font-mono font-semibold text-base m-auto">
+        {props.genre}
+      </div>
       <div className="m-auto">
         <Tooltip content="Play on spotify">
           <a href={props.link} target="_blank" rel="noreferrer">
