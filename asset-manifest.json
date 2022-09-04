@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/muzifyNews/static/css/main.f54f5700.css",
+    "main.js": "/muzifyNews/static/js/main.37e6f7a1.js",
+    "index.html": "/muzifyNews/index.html",
+    "static/media/index.cjs": "/muzifyNews/static/media/index.cd351d7c31d0d3fccf96.cjs",
+    "main.f54f5700.css.map": "/muzifyNews/static/css/main.f54f5700.css.map",
+    "main.37e6f7a1.js.map": "/muzifyNews/static/js/main.37e6f7a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f54f5700.css",
+    "static/js/main.37e6f7a1.js"
+  ]
+}
