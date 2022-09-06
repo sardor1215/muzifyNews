@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 export default function WeatherInfo() {
   const [clockState, setClockState] = useState();
@@ -24,12 +22,12 @@ export default function WeatherInfo() {
 
   return (
     <div className="hidden md:block  shadow-sq py-1 border-solid border divide-slate-600 justify-center bg-white">
-      <div class="grid grid-flow-row-dense grid-cols-3 grid-rows-2 mx-7">
-        <div class="col-span-2 ">
-          <span class="text-gray-400 font-mono font-semibold">Today</span>
+      <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-2 mx-7">
+        <div className="col-span-2 ">
+          <span className="text-gray-400 font-mono font-semibold">Today</span>
         </div>
-        <div class="col-span-2 font-mono font-semibold ">
-          <span class="text-lg ">{weekDays[day]}</span>
+        <div className="col-span-2 font-mono font-semibold ">
+          <span className="text-lg ">{weekDays[day]}</span>
         </div>
         <div className="font-mono font-semibold">
           {new Date().toLocaleDateString()}

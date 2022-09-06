@@ -22,7 +22,7 @@ export default function NewsSpot() {
           <div className=" shadow-sq py-1  border-solid border divide-slate-600 justify-center">
             <div className="flex flex-col grid lg:grid-cols-5">
               <div className="lg:col-span-2">
-                <img className="px-4 py-4 w-fit" src={data.img}></img>
+                <img className="px-4 py-4 w-fit" src={data.img} alt="img"></img>
               </div>
               <div className="col-span-3 mx-6 my-4">
                 <p className="font-semibold text-3xl mb-0.5">{data.title}</p>

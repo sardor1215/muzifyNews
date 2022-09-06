@@ -7,7 +7,7 @@ function Main() {
   return (
     <div className=" mx-4  lg:mx-20 my-5">
       <Navbar />
-      <div class="grid lg:grid-cols-4 gap-4 mt-3">
+      <div className="grid lg:grid-cols-4 gap-4 mt-3">
         <div>
           <WeatherInfo />
           <NewReleases />

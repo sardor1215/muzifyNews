@@ -24,5 +24,5 @@ module.exports = withMT({
       },
     },
   },
-  plugins: [require("flowbite/plugin")],
+  plugins: [require("flowbite/plugin"), "react-html-attrs"],
 });

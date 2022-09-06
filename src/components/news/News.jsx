@@ -5,7 +5,7 @@ import NewsCard from "../newsCard/NewsCard";
 export default function News() {
   return (
     <div className="shadow-sq py-1  border-solid border divide-slate-600 justify-center">
-      <p class="text-4xl mx-4 mb-4 font-bold  ">News</p>
+      <p className="text-4xl mx-4 mb-4 font-bold  ">News</p>
       <div className="grid lg:grid-cols-2 ">
         {newslist.map((each) => {
           return (

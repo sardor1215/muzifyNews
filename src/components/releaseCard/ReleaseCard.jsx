@@ -3,13 +3,8 @@ import React from "react";
 
 export default function ReleaseCard(props) {
   return (
-    // <div className="mx-7 grid grid-cols-3  gap-4 ">
-    //   <div className="">Neffex</div>
-    //   <div className="">destiny</div>
-    //   <FontAwesomeIcon icon={faBars} />
-    // </div>
-    <div class="flex items-center mx-6 mb-3  gap-4 bg-white">
-      <img className="h-12 rounded-full" src={props.img} />
+    <div className="flex items-center mx-6 mb-3  gap-4 bg-white">
+      <img className="h-12 rounded-full" src={props.img} alt={"img"} />
       <span>
         <a href={props.link} target="_blank" rel="noreferrer">
           <Tooltip content="Play on spotify" className="">

@@ -7,7 +7,7 @@ export default function TopChartCard(props) {
       <div className="m-auto  bg-gradient-to-t">
         <p className="font-bold text-2xl">{props.num}</p>
       </div>
-      <img className="h-20" src={props.img}></img>
+      <img alt={"img"} className="h-20" src={props.img}></img>
       <div className="col-span-3 mt-6 lg:mr-10">
         <Link
           className="underline text-blue-700 underline-offset-4 "
@@ -30,6 +30,7 @@ export default function TopChartCard(props) {
         <Tooltip content="Play on spotify">
           <a href={props.link} target="_blank" rel="noreferrer">
             <img
+              alt={"img"}
               className="h-8"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/1982px-Spotify_icon.svg.png"
             />
